@@ -1,0 +1,40 @@
+.navbarPrincipal{
+    background-color: rgb(13,71,161);
+    width:20%;
+    height: 100%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.navbarPrincipal h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+.navbarPrincipal ul li {
+    padding: 15px;
+    list-style-type:none;
+
+}
+.navbarPrincipal ul li:hover {
+    background-color: rgb(21,101,192);
+    transition: 0.8s;
+   
+   
+   }
+.navbarPrincipal ul li img {
+    padding: 0 10px 0 0;
+    list-style-type:none;
+
+}
+
+.navbarPrincipal ul li a {
+ text-decoration: none;
+ color: rgb(215, 244, 250);
+
+
+}
+
