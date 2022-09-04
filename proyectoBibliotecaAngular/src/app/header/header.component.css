@@ -1,9 +1,12 @@
+
 .navbarPrincipal{
     background-color: rgb(13,71,161);
-    width:20%;
+    max-width:20%;
     height: 100%;
     padding: 20px;
     font-size: 25px;
+    position:absolute;
+ 
 }
 
 .navbarPrincipal h2{
@@ -13,6 +16,12 @@
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(255, 255, 255);
 
+}
+.navbarPrincipal ul{
+    text-align: left;
+    padding-left: 0;
+    
+    
 }
 .navbarPrincipal ul li {
     padding: 15px;
@@ -26,7 +35,7 @@
    
    }
 .navbarPrincipal ul li img {
-    padding: 0 10px 0 0;
+    padding:0 15px 0 0;
     list-style-type:none;
 
 }
@@ -35,6 +44,4 @@
  text-decoration: none;
  color: rgb(215, 244, 250);
 
-
 }
-
