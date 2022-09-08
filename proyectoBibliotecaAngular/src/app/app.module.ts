@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrincipalComponent } from './principal/principal.component';
+import { PrestamosComponent } from './prestamos/prestamos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    PrestamosComponent
   ],
   imports: [
     BrowserModule,
