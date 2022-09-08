@@ -1,6 +1,6 @@
 
 .navbarPrincipal{
-    background-color: rgb(13,71,161);
+    background-color: rgba(13, 72, 161, 0.878);
     max-width:20%;
     height: 100%;
     padding: 20px;
@@ -29,11 +29,11 @@
 
 }
 .navbarPrincipal ul li:hover {
-    background-color: rgb(21,101,192);
-    transition: 0.8s;
-   
-   
+    background-color: rgba(112, 166, 233, 0.689);
+    transition: all 0.8s;
    }
+
+   
 .navbarPrincipal ul li img {
     padding:0 15px 0 0;
     list-style-type:none;
