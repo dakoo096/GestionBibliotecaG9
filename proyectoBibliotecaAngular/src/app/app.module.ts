@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrincipalComponent } from './principal/principal.component';
 import { PrestamosComponent } from './prestamos/prestamos.component';
 import { DevolucionesComponent } from './devoluciones/devoluciones.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DevolucionesComponent } from './devoluciones/devoluciones.component';
     HeaderComponent,
     PrincipalComponent,
     PrestamosComponent,
-    DevolucionesComponent
+    DevolucionesComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule,
