@@ -1,49 +1,51 @@
 
 *{  
-    padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
     word-spacing: 2px;
-    font-size: 18px;
-    transition: 2s;
+    font-size: 16px;
 }
 
-.pagPrestamos{
-    height: 30em;
+.pagUsuarios{
+    height: 42em;
     color: rgb(22, 21, 21);
     background-color: rgb(228, 242, 254);
     margin-right: 3%;
     margin-left: 20%;
+    
     box-shadow: 0px 0px 10px 2px rgba(0, 101, 242, 0.326);
 }
+
 h2{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
-    margin-left: 0;
+    margin-left: -5%;
     font-size: 25px;
 }
 
-.pagPrestamos .containerPrestamo {
+.pagUsuarios .containerUsuario {
     text-align: center;
     width: 60%;
     margin-left:-5%;
 }
 
-.pagPrestamos .containerPrestamo h3 {
+.pagUsuarios .containerUsuario h3 {
 	font-size:20px;
+    margin-top: 2px;
+
 }
 
-.pagPrestamos .containerPrestamo input{
+.pagUsuarios .containerUsuario input{
 	width: 80%;
 	border: 1px solid white;
-    border-radius: 5px;
 	border-bottom: 1px solid #2860d7;
-	padding-bottom: 10px;
+    padding-top: 5px;
+	padding-bottom: 2px;
     padding-left: 1%;
 	
 }
 
-.pagPrestamos .containerPrestamo #botonPrestar{
+.pagUsuarios .containerUsuario #botonRegistrar{
 	margin-top: 50px;
     margin-bottom: 50px;
 	padding: 10px;
@@ -54,17 +56,16 @@ h2{
 	font-size: 15px;
 }
 
-.pagPrestamos .containerPrestamo #botonPrestar:hover{
+.pagUsuarios .containerUsuario #botonRegistrar:hover{
     background-color:#103b97;
     transition: all 0.5s;
 }
 
-.imagenPrestamos{
-    margin-top: -50%;
-    margin-left: 60%;
-    padding-right: 10%;
-    width: 400px;
-    height: 300px;
+.imagenUsuarios{
+    margin-top: -98%;
+    margin-left: 90%;   
+    width: 450px;
+    height: 600px;
     padding-bottom: 5%;
 
 }
