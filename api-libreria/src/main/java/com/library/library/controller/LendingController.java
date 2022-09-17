@@ -14,7 +14,7 @@ public class LendingController{
     private LendingService lendingService;
     @Autowired
     private BookService bookService;
-    @PostMapping("/{idUser}/books/{idBook}")
+    @PostMapping("/{idUser}/books/{idBook}") // POST http://localhost:8080/lendings/{idUser}/books/{idBook} (necesario logearse)
     public ResponseEntity<Void>bookReserve(@PathVariable Long idUser, @PathVariable Long idBook,
                                            @RequestBody LendingDTO lending)
     {
@@ -25,7 +25,7 @@ public class LendingController{
         bookService.discountUnit(idBook);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
-    @PutMapping("/returned/{idLending}")
+    @PutMapping("/returned/{idLending}") // POST http://localhost:8080/lendings/returned/{idLending}
     public ResponseEntity<Void>returnReserve(@PathVariable Long idLending)
     {
         lendingService.returnLending(idLending, false);
