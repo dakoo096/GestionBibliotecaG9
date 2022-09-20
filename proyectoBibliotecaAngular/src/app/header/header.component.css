@@ -3,6 +3,8 @@
 }
 .navbarPrincipal{
     background-color: rgba(13, 72, 161, 0.878);
+    flex-basis: 20rem;
+    flex-grow: 1; 
     width:250px;
     height: 100%;
     padding: 20px;
