@@ -18,10 +18,10 @@
 }
 
 .imagenPrincipal{
-    margin-top: -100px;
+    margin-top: -200px;
     margin-left: 65%;
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: auto;
     border-radius: 20%;
     box-shadow: 0px 1px rgba(0, 0, 0, 0.188);
 
