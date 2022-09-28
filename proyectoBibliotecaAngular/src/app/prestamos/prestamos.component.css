@@ -68,3 +68,57 @@ h2{
     box-shadow: 0px 1px rgba(0, 0, 0, 0.188);
 
 }
+
+
+@media (max-width:1024px){
+    
+    h2{
+     font-size: 20px;
+     padding-left: 0;
+     padding-bottom: 0;
+    }
+ 
+    .pagPrestamos{
+     height: 450px;
+    }
+ 
+     .pagPrestamos .containerPrestamo {
+         text-align: center;
+         width: 700px;
+     }
+     
+     .pagPrestamos .containerPrestamo h3 {
+         font-size:15px;
+         margin: 2px ;
+     
+     }
+     
+     .pagPrestamos .containerPrestamo input{
+         font-size: 12px;
+             
+         }
+ 
+
+     .imagenPrestamos{
+         visibility: hidden;
+     }
+ 
+ 
+     
+ }
+@media (max-width:768px){
+    .pagPrestamos .containerPrestamo input{
+    font-size: 12px;
+        
+    }
+    .imagenPrestamos{
+        visibility: hidden;
+    
+    }
+
+    .pagPrestamos .containerPrestamo {
+        text-align: center;
+        width: 400px;
+    }
+    
+}
