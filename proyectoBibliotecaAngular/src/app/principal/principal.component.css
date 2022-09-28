@@ -35,3 +35,28 @@
 .principal li ul{
     
 }
+
+
+
+@media (max-width:1024px){
+    .principal{
+    font-size: 12px;
+        
+    }
+
+    .imagenPrincipal{
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width:768px){
+    *{
+    font-size: 12px;
+    }
+
+
+    .imagenPrincipal{
+        visibility: hidden;
+    }
+}
