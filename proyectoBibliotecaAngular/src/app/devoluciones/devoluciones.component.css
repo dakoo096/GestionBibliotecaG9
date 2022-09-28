@@ -34,6 +34,8 @@ h2{
 	font-size:20px;
 }
 
+
+
 .pagDevolucion .containerDevolucion input{
 	width: 80%;
 	border: 1px solid white;
@@ -59,7 +61,7 @@ h2{
     transition: all 0.5s;
 }
 
-.imagenPrestamos{
+.imagenDevolucion{
     margin-top: -400px;
     margin-left: 55%;
     width: 50%;
@@ -67,4 +69,60 @@ h2{
     border-radius: 20%;
     box-shadow: 0px 1px rgba(0, 0, 0, 0.188);
 
+}
+
+
+
+@media (max-width:1024px){
+    
+    h2{
+     font-size: 20px;
+     padding-left: 0;
+     padding-bottom: 0;
+    }
+ 
+    .pagDevolucion{
+     height: 450px;
+    }
+ 
+     .pagDevolucion .containerDevolucion {
+         text-align: center;
+         width: 700px;
+     }
+     
+     .pagDevolucion .containerDevolucion h3 {
+         font-size:15px;
+         margin: 2px ;
+     
+     }
+     
+     .pagDevolucion .containerDevolucion input{
+         font-size: 12px;
+             
+         }
+ 
+
+     .imagenDevolucion{
+         visibility: hidden;
+     }
+ 
+ 
+     
+ }
+
+@media (max-width:768px){
+    .pagDevolucion .containerDevolucion input{
+    font-size: 12px;
+        
+    }
+    .imagenDevolucion{
+        visibility: hidden;
+    
+    }
+
+    .pagDevolucion .containerDevolucion {
+        text-align: center;
+        width: 400px;
+    }
+    
 }
