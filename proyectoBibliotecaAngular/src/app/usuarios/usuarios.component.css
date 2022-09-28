@@ -70,3 +70,92 @@ h2{
     border-radius: 10%;
 
 }
+
+
+
+@media (max-width:1024px){
+    
+   h2{
+    font-size: 20px;
+    padding-left: 0;
+    padding-bottom: 0;
+   }
+
+   .pagUsuarios{
+    height: 550px;
+   }
+
+    .pagUsuarios .containerUsuario {
+        text-align: center;
+        width: 700px;
+    }
+    
+    .pagUsuarios .containerUsuario h3 {
+        font-size:15px;
+        margin: 2px ;
+    
+    }
+    
+    .pagUsuarios .containerUsuario input{
+        font-size: 12px;
+            
+        }
+
+        .pagUsuarios .containerUsuario #botonRegistrar{
+            margin-top: 30px;
+            margin-bottom: 50px;
+            padding: 10px;
+            border-radius:5px;
+            width: 30%;
+            background-color:#2860d7;
+            color:white;
+            font-size: 12px;
+        }
+
+    .imagenUsuarios{
+        visibility: hidden;
+    }
+
+
+    
+}
+
+@media (max-width:768px){
+
+    h2{
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-left: -5%;
+        font-size: 20px;
+    }
+
+    .pagUsuarios{
+        height: 35em;
+        color: rgb(22, 21, 21);
+        background-color: rgb(228, 242, 254);
+        margin-right: 30px;
+        margin-left: 320px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 101, 242, 0.326);
+    }
+    
+    .pagUsuarios .containerUsuario h3 {
+        font-size:15px;
+        margin: 2px ;
+    
+    }
+    
+    .pagUsuarios .containerUsuario input{
+    font-size: 12px;
+        
+    }
+    .imagenUsuarios{
+        visibility: hidden;
+    
+    }
+
+    .pagUsuarios .containerUsuario {
+        text-align: center;
+        width: 400px;
+    }
+    
+}
