@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 
-import { PrincipalComponent } from './principal/principal.component';
-import { PrestamosComponent } from './prestamos/prestamos.component';
-import { DevolucionesComponent } from './devoluciones/devoluciones.component';
-import { UsuariosComponent } from './usuarios/usuarios.component';
+import { PrincipalComponent } from './pages/principal/principal.component';
+import { PrestamosComponent } from './pages/prestamos/prestamos.component';
+import { DevolucionesComponent } from './pages/devoluciones/devoluciones.component';
+import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'inicio'},

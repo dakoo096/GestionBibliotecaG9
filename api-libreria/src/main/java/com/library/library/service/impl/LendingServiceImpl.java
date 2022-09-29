@@ -79,6 +79,7 @@ public class LendingServiceImpl implements LendingService {
             }
         }
     }
+
     public void renovation(Long idLending){
         if(existLending(idLending)){
             LendingEntity entity = lendingRepository.getReferenceById(idLending);
@@ -99,7 +100,9 @@ public class LendingServiceImpl implements LendingService {
             throw new RuntimeException("You never reserved this book.");
         }
     }
+
     public Boolean existLending(Long idLending){
         return lendingRepository.existsById(idLending)?true:false;
     }
+    
 }
