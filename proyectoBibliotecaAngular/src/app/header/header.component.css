@@ -53,3 +53,24 @@
  color: rgb(215, 244, 250);
 
 }
+
+
+
+@media (max-width:1024px){
+
+}
+
+@media (max-width:768px){
+    .navbarPrincipal{
+        width:100px;
+}
+
+.navbarPrincipal ul li{
+    padding: 2px;
+    text-align: center;
+}
+
+    .navbarPrincipal ul li a {
+   font-size: 8px;
+   }
+}

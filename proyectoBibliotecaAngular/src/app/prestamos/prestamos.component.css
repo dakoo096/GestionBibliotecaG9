@@ -107,6 +107,10 @@ h2{
      
  }
 @media (max-width:768px){
+.pagPrestamos{
+    margin-left: 8em;
+}
+
     .pagPrestamos .containerPrestamo input{
     font-size: 12px;
         
@@ -118,7 +122,8 @@ h2{
 
     .pagPrestamos .containerPrestamo {
         text-align: center;
-        width: 400px;
+        width: 600px;
+
     }
     
 }

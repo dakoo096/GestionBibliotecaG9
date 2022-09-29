@@ -55,6 +55,9 @@
     font-size: 12px;
     }
 
+    .principal{
+        margin-left: 10em;
+    }
 
     .imagenPrincipal{
         visibility: hidden;
