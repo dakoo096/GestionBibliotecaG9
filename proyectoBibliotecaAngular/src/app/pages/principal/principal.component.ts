@@ -10,17 +10,21 @@ import { LibrosService } from 'src/app/servicios/libro.service';
 })
 export class PrincipalComponent implements OnInit {
 
-  public Libros: Libro[] = [];
+  public libros: Libro[] = [];
 
   constructor(private librosService: LibrosService) { }
 
   ngOnInit(): void {
     this.cargarLibros();
   }
+
   cargarLibros() {
     return this.librosService.cargarLibros().subscribe((data) => {
-      this.Libros = data;
+      data.forEach((dato) =>{
+        this.libros.push(dato);
+      });
       console.log(data);
+      return data;
     });
   }
 
